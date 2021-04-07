@@ -1,6 +1,6 @@
 searchSciHub = function(word){
     var query = word.selectionText;
-    chrome.tabs.create({url: "https://sci-hub.tw/" + query});
+    chrome.tabs.create({url: "https://sci-hub.se/" + query});
 };
 
 chrome.contextMenus.create({
